@@ -1,0 +1,503 @@
+:root {
+      /* FONTS */
+      --primary-font: 'Roboto', sans-serif;
+
+      /* COLORS */
+      --gray-color: rgb(27, 27, 27);
+}
+
+
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+}
+
+
+/* GENERAL STYLES */
+.container {
+      /* width: 70%; */
+      width: 90%;
+      margin: auto;
+}
+
+.btn {
+      padding: 8px;
+      background: var(--gray-color);
+      color: #fff;
+
+      font-size: 16px;
+
+      text-decoration: none;
+      outline: none;
+      cursor: pointer;
+}
+
+body {
+      background: rgb(241, 241, 241);
+
+      font-family: var(--primary-font);
+}
+
+.title {
+      font-size: 40px;
+}
+
+img {
+      height: 100%;
+      width: 100%;
+}
+
+
+
+
+
+
+/* HEADER */
+.header {
+      height: 80px;
+      width: 100%;
+      position: fixed;
+      z-index: 200;
+      
+      background: transparent;
+      transition: background 0.5s ease;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.header--scroll {
+      background: #000;
+}
+
+.header__logo {
+      color: #fff;
+}
+
+/* NAVBAR */
+
+.navbar__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.navbar__item {
+      list-style: none;
+}
+
+.navbar__link {
+      margin: 0 10px;
+      
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+
+}
+
+
+
+/* BURGER MENU */
+.burger-menu-container {
+      display: none;
+}
+
+.burger-menu {
+      height: 25px;
+      width: 25px;
+
+      /* display: none; */
+}
+
+
+
+
+
+
+
+/* HERO */
+.hero {
+      height: 100vh;
+      width: 100%;
+
+      background-image: url(../images/marino-ballena-beach.jpg);
+      background-size: cover;
+      color: #fff;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.hero__info {
+      padding: 1rem;
+}
+
+.hero__title {
+      font-size: 50px;
+}
+
+.hero__subtitle {
+      font-size: 25px;
+      font-weight: lighter;
+}
+
+.hero__info * {
+      margin: 16px;
+}
+
+
+/* ABOUT */
+.services {
+      padding: 1rem 0;
+}
+
+.services .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+}
+
+.services__title {
+      padding: 1rem;
+      font-size: 40px;
+}
+
+.services-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.services-container__card{
+      width: 60%;
+      margin: 30px 0;
+      text-align: center;
+}
+
+.services-container__item {
+      margin: 20px 0;
+}
+
+.services-container__icon {
+      font-size: 50px;
+}
+
+/* DIVING */
+.diving {
+      height: 100vh;
+      padding: 3rem;
+
+      background-image: url(../images/attractions/snorkeling.webp);
+      background-size: cover;
+      color: #fff;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+}
+
+.card-diving {
+      text-align: start;
+}
+
+.card-diving * {
+      margin: 25px 0;
+}
+
+.card__title-diving {
+      font-size: 40px;
+}
+
+.card__subtitle-diving {
+      font-size: 25px;
+}
+
+.card__text-diving {
+      width: 60%;
+}
+
+
+
+
+
+
+/* DIVING */
+.diving {
+      height: 100vh;
+      padding: 3rem;
+
+      background-image: url(../images/whales/snorkeling.webp);
+      background-size: cover;
+      color: #fff;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+}
+
+.card-diving {
+      text-align: start;
+}
+
+.card-diving * {
+      margin: 25px 0;
+}
+
+.card__title-diving {
+      font-size: 40px;
+}
+
+.card__subtitle-diving {
+      font-size: 25px;
+}
+
+.card__text-diving {
+      width: 60%;
+}
+
+
+
+
+
+/* PLACES */
+.places {
+      padding: 2rem 0;
+      
+      background: rgb(27, 27, 27);
+
+      text-align: center;
+}
+
+.places__title {
+      text-align: center;
+      padding: 1rem;
+      font-size: 40px;
+      color: #fff;
+}
+
+.places-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.places-container__card {
+      height: auto;
+      width: auto;
+      margin: 20px 0;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+
+      background: rgb(243, 243, 243);
+}
+
+.places-container__img {
+      /* min-width: 400px; */
+      height: 400px;
+      width: 400px;
+      transition: all 0.5s ease;
+      
+      z-index: 100;
+}
+
+
+.places-container__info {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+      z-index: 40;
+
+      /* background: var(--gray-color);  */
+      /* color: #fff; */
+      background: rgb(241,241,241);
+      color: #000;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+}
+
+.places-container__info * {
+      margin: 10px 0;
+}
+
+
+/* CONTACT */
+.contact {
+      height: auto;
+      padding: 3rem 1rem;
+      
+      background: rgb(34, 34, 34);
+      color: #fff;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+}
+
+.card { 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.card__card-item {
+      margin: 10px 0;
+}
+
+.card__title {
+      font-size: 40px;
+}
+
+.card__text {
+      width: 70%;
+}
+
+
+/* FOOTER */
+.footer {
+      height: 200px;
+
+      background: var(--gray-color);
+      color: #fff;
+      text-align: center;
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.social-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.social-item {
+      list-style: none;
+}
+
+.social-link {
+      margin: 0 15px;
+
+      color: #fff;
+      text-decoration: none;
+}
+
+.social-icon {
+      font-size: 25px;
+}
+
+
+/* SCROLL TO TOP BUTTON */
+.scroll-to-top-button {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 0 40px 40px 0;
+      padding: 1rem;
+
+      background: rgb(27, 27, 27);
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      text-decoration: none;
+
+      border: none;
+      border-radius: 100%;
+      outline: none;
+}
+
+.scroll-to-top-button--active {
+      display: flex;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+      /* GLOBAL STYLES */
+      .container {
+            width: 90%;
+      }
+
+      /* HEADER */
+      .header__logo {
+            z-index: 100;
+
+            font-size: 20px;
+            color: #fff;
+      }
+
+      /* NAVBAR */
+      .navbar {
+            height: 100vh;
+            width: 100vw;
+            z-index: 50;
+
+            display: none;
+      }
+
+      .navbar--active {
+            background: rgba(0, 0, 0, 0.678);
+            color: #fff;
+            position: fixed;
+            top: 0;
+            right: 0;
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+      }
+
+      .navbar__list {
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+      }
+
+      .navbar__link {
+            font-size: 20px;
+      }
+
+      /* BURGER MENU */
+      .burger-menu-container {
+            padding: 10px;
+            z-index: 101;
+
+            background: rgba(255, 255, 255, 0);
+            display: block;
+      }
+
+      .burger-menu {
+            display: block;
+            z-index: 100;
+
+            fill: #fff;
+      }
+
+
+      /* PLACES CONTAINER */
+      
+}
