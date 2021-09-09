@@ -228,45 +228,6 @@ img {
 
 
 
-/* DIVING */
-.diving {
-      height: 100vh;
-      padding: 3rem;
-
-      background-image: url(../images/whales/snorkeling.webp);
-      background-size: cover;
-      color: #fff;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-}
-
-.card-diving {
-      text-align: start;
-}
-
-.card-diving * {
-      margin: 25px 0;
-}
-
-.card__title-diving {
-      font-size: 40px;
-}
-
-.card__subtitle-diving {
-      font-size: 25px;
-}
-
-.card__text-diving {
-      width: 60%;
-}
-
-
-
-
-
 /* PLACES */
 .places {
       padding: 2rem 0;
