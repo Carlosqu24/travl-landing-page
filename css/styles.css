@@ -232,7 +232,7 @@ img {
 .places {
       padding: 2rem 0;
       
-      background: rgb(27, 27, 27);
+      /* background: rgb(27, 27, 27); */
 
       text-align: center;
 }
@@ -241,7 +241,7 @@ img {
       text-align: center;
       padding: 1rem;
       font-size: 40px;
-      color: #fff;
+      color: #000;
 }
 
 .places-container {
@@ -260,7 +260,7 @@ img {
       text-align: center;
       overflow: hidden;
 
-      background: rgb(243, 243, 243);
+      /* background: rgb(243, 243, 243); */
 }
 
 .places-container__img {
@@ -281,7 +281,7 @@ img {
 
       /* background: var(--gray-color);  */
       /* color: #fff; */
-      background: rgb(241,241,241);
+      background: rgb(230, 230, 230);
       color: #000;
 
       display: flex;
