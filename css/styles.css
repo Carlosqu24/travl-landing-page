@@ -281,7 +281,7 @@ img {
 
       /* background: var(--gray-color);  */
       /* color: #fff; */
-      background: rgb(230, 230, 230);
+      background: transparent;
       color: #000;
 
       display: flex;
