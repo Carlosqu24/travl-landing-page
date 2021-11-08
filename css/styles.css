@@ -245,18 +245,9 @@ img {
 
 /* PLACES */
 .places {
-      /* padding: 2rem 0; */
-      
-      /* background: rgb(27, 27, 27); */
-
-      /* text-align: center; */
 }
 
 .places__title {
-      /* text-align: center;
-      padding: 1rem;
-      font-size: 40px;
-      color: #000; */
 }
 
 .places-container {
@@ -268,17 +259,17 @@ img {
 .places-container__card {
       height: auto;
       margin: 20px 0;
-      /* position: relative; */
       text-align: center;
 
-      /* background: rgb(243, 243, 243); */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
 }
 
 .places-container__img {
-      /* min-width: 400px; */
       height: 400px;
       
-     
       transition: all 0.5s ease;
       object-fit: cover;
       
@@ -292,9 +283,7 @@ img {
       padding: 1rem;
       z-index: 40;
 
-      /* background: var(--gray-color);  */
-      /* color: #fff; */
-      background: rgb(0, 0, 0);
+      background: rgb(27, 27, 27);
       color: rgb(255, 255, 255);
 
       display: flex;
